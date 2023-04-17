@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6630d119","path":"/zh/framework/","title":"管理后台问题-test","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1681719983000,"contributors":[{"name":"lieb","email":"lieb@tedu.cn","commits":1}]},"filePathRelative":"zh/framework/index.md"}');export{e as data};

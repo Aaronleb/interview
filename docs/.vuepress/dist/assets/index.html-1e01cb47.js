@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as n}from"./framework-5866ffd3.js";const r={},s=e("h1",{id:"管理后台问题",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#管理后台问题","aria-hidden":"true"},"#"),n(" 管理后台问题")],-1),o=[s];function _(d,i){return a(),c("div",null,o)}const l=t(r,[["render",_],["__file","index.html.vue"]]);export{l as default};
