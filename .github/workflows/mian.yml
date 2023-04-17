@@ -24,10 +24,12 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.2
         with: 
-           version: "18.X"
+           version: "18.16.0"
       # Runs a single command using the runners shell
       - name: install vuepress
         run: npm install -D vuepress@next
+      - name: install dep
+        run: npm install
       - name: build app
         run: npm run build
 
