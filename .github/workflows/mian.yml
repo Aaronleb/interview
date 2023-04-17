@@ -27,8 +27,6 @@ jobs:
         with: 
            version: "18.16.0"
       # Runs a single command using the runners shell
-      - name: install vuepress
-        run: npm install -D vuepress@next
       - name: install dep
         run: npm install
       - name: build app
