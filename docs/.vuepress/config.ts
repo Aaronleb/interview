@@ -25,20 +25,20 @@ export default defineUserConfig({
             text: 'JAVA基础',
             children: [
                 {
-                    text: '安装包',
-                    link: '/zh/client/install.md',
+                    text: 'JVM',
+                    link: '/zh/basic/jvm.md',
                 },
                 {
-                    text: '电子教室',
-                    link: '/zh/client/classroom.md',
+                    text: '高并发',
+                    link: '/zh/basic/concurrent.md',
                 },
                 {
-                    text: '课程中心',
-                    link: '/zh/client/course.md',
+                    text: '设计模式',
+                    link: '/zh/basic/designPatterns.md',
                 },
                 {
-                    text: 'TTS客户端',
-                    link: '/zh/client/tts.md',
+                    text: '算法基础',
+                    link: '/zh/client/algorithm.md',
                 },
             ],
         },
@@ -46,16 +46,16 @@ export default defineUserConfig({
             text: 'JAVA框架',
             children: [
                 {
-                    text: '缴费&退费',
-                    link: '/zh/admin/pay.md',
+                    text: 'MyBatis',
+                    link: '/zh/framework/mybatis.md',
                 },
                 {
-                    text: '补课问题',
-                    link: '/zh/admin/makeup.md',
+                    text: 'Spring',
+                    link: '/zh/framework/spring.md',
                 },
                 {
-                    text: '课程问题',
-                    link: '/zh/admin/course.md'
+                    text: 'Spring-Cloud',
+                    link: '/zh/framework/spring-cloud.md'
                 },
                 {
                     text: '班级问题',
@@ -67,7 +67,7 @@ export default defineUserConfig({
             children: [
                 {
                     text: 'MQ',
-                    link: '/zh/wechat/pay.md',
+                    link: '/zh/middleware/mq.md',
                 }
             ],
         },
